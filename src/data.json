@@ -1,0 +1,17 @@
+{
+  "depts":[ 
+    {"id":10,"dname":"Accounts"},
+    {"id":20,"dname":"Sales"},
+    {"id":30,"dname":"Operations"},
+    {"id":40,"dname":"RnD"},
+    {"id":50,"dname":"Production"}
+   ],
+   "emps":[ 
+    {"id":101,"ename":"Vishnu","basic":5000,"deptno":10},
+    {"id":102,"ename":"vardhan","basic":5500,"deptno":20},
+    {"id":103,"ename":"Rao","basic":6000,"deptno":30},
+    {"id":104,"ename":"Sai","basic":6500,"deptno":40},
+    {"id":105,"ename":"Harsha","basic":7000,"deptno":50}
+   ],
+   
+}
