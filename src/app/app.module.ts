@@ -16,11 +16,14 @@ import { CourseListComponent } from './course-list/course-list.component';
 import { EnrollmentsComponent } from './enrollments/enrollments.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { MsgBoxComponent } from './msg-box/msg-box.component';
+import { StudentService } from './student.service';
+import { CourseService } from './course.service';
+import { UserService } from './user.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, LoginComponent, AdminDashboardComponent, AdminHomeComponent, StudentDashboardComponent, StudentHomeComponent, StudentFormComponent, AddCourseComponent, CourseListComponent, EnrollmentsComponent, MenuBarComponent, MsgBoxComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [ArthService]
+  providers: [ArthService, StudentService, CourseService, UserService]
 })
 export class AppModule { }
