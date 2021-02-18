@@ -19,10 +19,14 @@ import { MsgBoxComponent } from './msg-box/msg-box.component';
 import { StudentService } from './student.service';
 import { CourseService } from './course.service';
 import { UserService } from './user.service';
+import { AdminhomeComponent } from './adminhome/adminhome.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { StudentdashboardComponent } from './studentdashboard/studentdashboard.component';
+import { StudenthomeComponent } from './studenthome/studenthome.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, LoginComponent, AdminDashboardComponent, AdminHomeComponent, StudentDashboardComponent, StudentHomeComponent, StudentFormComponent, AddCourseComponent, CourseListComponent, EnrollmentsComponent, MenuBarComponent, MsgBoxComponent ],
+  declarations: [ AppComponent, HelloComponent, LoginComponent, AdminDashboardComponent, AdminHomeComponent, StudentDashboardComponent, StudentHomeComponent, StudentFormComponent, AddCourseComponent, CourseListComponent, EnrollmentsComponent, MenuBarComponent, MsgBoxComponent, AdminhomeComponent, AdmindashboardComponent, StudentdashboardComponent, StudenthomeComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ArthService, StudentService, CourseService, UserService]
 })
