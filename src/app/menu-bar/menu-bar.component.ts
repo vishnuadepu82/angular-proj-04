@@ -41,4 +41,9 @@ export class MenuBarComponent implements OnInit {
         ];
       }
   }
+  logout()
+  {
+    this.userservice.logout();
+    this.router.navigateByUrl("/");
+  }
 }
